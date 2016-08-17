@@ -89,7 +89,7 @@ $(function() {
 
         it('after initial feed should have at least 1 .entry element inside the .feed container', function() {
             var elements = $('.feed .entry');
-            expect(elements).toBeDefined();
+            expect(elements.length).not.toBe(0);
         });
     });
 
