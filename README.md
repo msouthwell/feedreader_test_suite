@@ -1,3 +1,19 @@
+## Installation Instructions
+
+First, clone the repository on your local machine. 
+
+Start local web server
+
+python3 `python -m http.server 8080` or python 2.7 `python -m SimpleHTTPServer 8080`
+
+View site on localhost:8080
+
+The tests are ran and then placed below the feed reader. 
+
+---------------
+# Udacity Project Requirements Below
+
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
